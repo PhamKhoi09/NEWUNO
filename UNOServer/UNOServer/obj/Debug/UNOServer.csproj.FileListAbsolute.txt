@@ -5,3 +5,10 @@ C:\Users\ledan\source\repos\UNOOnline-86abf2d04e39fcfa3954a6642e634bf2d23a7a27\U
 C:\Users\ledan\source\repos\UNOOnline-86abf2d04e39fcfa3954a6642e634bf2d23a7a27\UNOServer\UNOServer\obj\Debug\UNOServer.csproj.CoreCompileInputs.cache
 C:\Users\ledan\source\repos\UNOOnline-86abf2d04e39fcfa3954a6642e634bf2d23a7a27\UNOServer\UNOServer\obj\Debug\UNOServer.exe
 C:\Users\ledan\source\repos\UNOOnline-86abf2d04e39fcfa3954a6642e634bf2d23a7a27\UNOServer\UNOServer\obj\Debug\UNOServer.pdb
+C:\Users\ledan\source\repos\NEWUNO\UNOServer\UNOServer\bin\Debug\UNOServer.exe.config
+C:\Users\ledan\source\repos\NEWUNO\UNOServer\UNOServer\bin\Debug\UNOServer.exe
+C:\Users\ledan\source\repos\NEWUNO\UNOServer\UNOServer\bin\Debug\UNOServer.pdb
+C:\Users\ledan\source\repos\NEWUNO\UNOServer\UNOServer\obj\Debug\UNOServer.csproj.AssemblyReference.cache
+C:\Users\ledan\source\repos\NEWUNO\UNOServer\UNOServer\obj\Debug\UNOServer.csproj.CoreCompileInputs.cache
+C:\Users\ledan\source\repos\NEWUNO\UNOServer\UNOServer\obj\Debug\UNOServer.exe
+C:\Users\ledan\source\repos\NEWUNO\UNOServer\UNOServer\obj\Debug\UNOServer.pdb

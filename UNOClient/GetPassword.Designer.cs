@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GetPassword));
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.usernameTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -38,7 +37,6 @@
             this.retrievePasswordButton = new System.Windows.Forms.Button();
             this.passwordTextBox = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox2
@@ -52,21 +50,11 @@
             this.pictureBox2.TabIndex = 13;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(238, 23);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(365, 180);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 14;
-            this.pictureBox1.TabStop = false;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label2.Location = new System.Drawing.Point(92, 236);
+            this.label2.Location = new System.Drawing.Point(122, 132);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(114, 25);
             this.label2.TabIndex = 15;
@@ -74,16 +62,16 @@
             // 
             // usernameTextBox
             // 
-            this.usernameTextBox.Location = new System.Drawing.Point(238, 236);
+            this.usernameTextBox.Location = new System.Drawing.Point(264, 132);
             this.usernameTextBox.Name = "usernameTextBox";
-            this.usernameTextBox.Size = new System.Drawing.Size(365, 22);
+            this.usernameTextBox.Size = new System.Drawing.Size(383, 22);
             this.usernameTextBox.TabIndex = 16;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label1.Location = new System.Drawing.Point(141, 280);
+            this.label1.Location = new System.Drawing.Point(171, 176);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 25);
             this.label1.TabIndex = 17;
@@ -91,15 +79,15 @@
             // 
             // emailTextBox
             // 
-            this.emailTextBox.Location = new System.Drawing.Point(238, 284);
+            this.emailTextBox.Location = new System.Drawing.Point(264, 180);
             this.emailTextBox.Name = "emailTextBox";
-            this.emailTextBox.Size = new System.Drawing.Size(365, 22);
+            this.emailTextBox.Size = new System.Drawing.Size(383, 22);
             this.emailTextBox.TabIndex = 18;
             // 
             // retrievePasswordButton
             // 
             this.retrievePasswordButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.retrievePasswordButton.Location = new System.Drawing.Point(282, 327);
+            this.retrievePasswordButton.Location = new System.Drawing.Point(241, 226);
             this.retrievePasswordButton.Name = "retrievePasswordButton";
             this.retrievePasswordButton.Size = new System.Drawing.Size(262, 52);
             this.retrievePasswordButton.TabIndex = 19;
@@ -113,10 +101,10 @@
             this.passwordTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.passwordTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.passwordTextBox.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.passwordTextBox.Location = new System.Drawing.Point(185, 402);
+            this.passwordTextBox.Location = new System.Drawing.Point(114, 298);
             this.passwordTextBox.Name = "passwordTextBox";
             this.passwordTextBox.ReadOnly = true;
-            this.passwordTextBox.Size = new System.Drawing.Size(445, 23);
+            this.passwordTextBox.Size = new System.Drawing.Size(533, 23);
             this.passwordTextBox.TabIndex = 20;
             // 
             // GetPassword
@@ -130,12 +118,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.usernameTextBox);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
             this.Name = "GetPassword";
             this.Text = "GetPassword";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -144,7 +130,6 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox usernameTextBox;
         private System.Windows.Forms.Label label1;

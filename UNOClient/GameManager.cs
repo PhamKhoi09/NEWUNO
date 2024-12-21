@@ -434,9 +434,18 @@ namespace UnoOnline
             }
             else
             {
+                //Hiển thị Game ended because a player left the game. và tắt form
                 Application.OpenForms[0].Invoke(new Action(() =>
                 {
                     MessageBox.Show("Game ended because a player left the game.");
+                    Form1 form1 = Application.OpenForms.OfType<Form1>().FirstOrDefault();
+                    if (form1 != null)
+                    {
+                        form1.Invoke(new Action(() =>
+                        {
+                            form1.Close();
+                        }));
+                    }
                 }));
             }
         }

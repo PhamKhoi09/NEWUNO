@@ -531,6 +531,16 @@ namespace UnoOnline
             };
             Controls.Add(clientInfoLabel);
 
+            currentColor = new Label
+            {
+                Size = new Size(200, 30),
+                Text = $"Màu hiện tại: {GameManager.Instance.CurrentCard.Color}",
+                Font = new Font("Arial", 14),
+                BackColor = Color.Transparent,
+                Location = new Point(10, 40)
+            };
+            Controls.Add(currentColor);
+
             // PictureBox for current card
             currentCardPictureBox = new PictureBox
             {
@@ -856,8 +866,10 @@ namespace UnoOnline
         private FlowLayoutPanel PlayerHandPanel;
 
         private PictureBox currentCardPictureBox;
+        private Label currentColor;
         private Label currentPlayerLabel;
         private Label clientInfoLabel; // Nhãn để hiển thị tên và số bài của client
+
         private async void AnimateCardDrawing(Card card)
         {
             Button cardButton = new Button
@@ -979,6 +991,7 @@ namespace UnoOnline
                 Controls.Add(deckPictureBox);
                 Controls.Add(deckLabel);
             }
+            currentColor.Text = $"Màu hiện tại: {GameManager.Instance.CurrentCard.Color}";
         }
 
         private void InitializeChatPanel()
