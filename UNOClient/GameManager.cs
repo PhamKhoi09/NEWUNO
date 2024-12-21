@@ -354,6 +354,7 @@ namespace UnoOnline
                     {
                         form1.DisplayPlayerHand(Instance.Players[0].Hand);
                         form1.InitializeDeckImages();
+                        form1.DisableCardAndDrawButton();
                     }));
                 }
                 else
@@ -387,7 +388,7 @@ namespace UnoOnline
                 {
                     form1.DisplayPlayerHand(Instance.Players[0].Hand);
                     form1.InitializeDeckImages();
-                    form1.EnableCardAndDrawButton();
+                    form1.DisableCardAndDrawButton();
                 }));
             }
         }
