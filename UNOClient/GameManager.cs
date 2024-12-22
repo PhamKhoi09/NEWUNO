@@ -399,7 +399,17 @@ namespace UnoOnline
             if (playerGotPenalty == Program.player.Name)
             {
                 MessageBox.Show("You got penalty for not pressing the UNO button!");
-                ClientSocket.SendData(new Message(MessageType.DrawPenalty, new List<string> { Program.player.Name, "2" }));
+                if (Instance.CurrentCard.CardName.Contains("Draw") && Instance.IsSpecialDraw == true) //Bị rút bài
+                {
+                    Instance.IsSpecialDraw = false;
+                    if (Instance.CurrentCard.CardName.Contains("Wild"))
+                        // Draw 4
+                        ClientSocket.SendData(new Message(MessageType.DrawPenalty, new List<string> { Program.player.Name, (Instance.Players[0].Hand.Count + 6).ToString() }));
+                    else
+                        // Draw 2
+                        ClientSocket.SendData(new Message(MessageType.DrawPenalty, new List<string> { Program.player.Name, (Instance.Players[0].Hand.Count + 4).ToString() }));
+                }
+                else ClientSocket.SendData(new Message(MessageType.DrawPenalty, new List<string> { Program.player.Name, (Instance.Players[0].Hand.Count + 2).ToString() }));
             }
         }
 
