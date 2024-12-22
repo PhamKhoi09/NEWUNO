@@ -139,6 +139,23 @@ namespace UnoOnline
                     }
                 }));
             }
+            //đóng màn hình win lose, nếu có
+            if (Program.IsFormOpen(typeof(WinResult)))
+            {
+                Application.OpenForms[0].Invoke(new Action(() =>
+                {
+                    WinResult winResult = (WinResult)Application.OpenForms[typeof(WinResult).Name];
+                    winResult.Close();
+                }));
+            }
+            else if (Program.IsFormOpen(typeof(LoseResult)))
+            {
+                Application.OpenForms[0].Invoke(new Action(() =>
+                {
+                    LoseResult loseResult = (LoseResult)Application.OpenForms[typeof(LoseResult).Name];
+                    loseResult.Close();
+                }));
+            }
         }
 
         public bool IsValidMove(Card card)
@@ -226,7 +243,6 @@ namespace UnoOnline
                         }
                     }
                 }
-
                 // Update the UI
                 Form1 form1 = (Form1)Application.OpenForms.OfType<Form1>().FirstOrDefault();
                 if (form1 != null)
@@ -256,10 +272,6 @@ namespace UnoOnline
             catch (ArgumentException ex)
             {
                 MessageBox.Show("Invalid card data: " + ex.Message);
-            }
-            catch (IndexOutOfRangeException ex)
-            {
-                MessageBox.Show("Index was outside the bounds of the array: " + ex.Message);
             }
             catch (NullReferenceException ex)
             {
@@ -329,7 +341,6 @@ namespace UnoOnline
 
                 List<string> cardNames = new List<string>(data.Skip(1)); // Skip the first part which is not card data
 
-                // Add the cards to the player's hand
                 Instance.Players[0].Hand.AddRange(cardNames.Select(cardData =>
                 {
                     string[] card = cardData.Split(new[] { '_' }, StringSplitOptions.RemoveEmptyEntries);
