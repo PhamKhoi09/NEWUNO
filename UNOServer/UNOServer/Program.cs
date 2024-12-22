@@ -85,7 +85,7 @@ namespace UNOServer
                         DecryptingMessage(receivedata, User); //Thông điệp được đưa vào hàm này để xử lý yêu cầu (thông điệp) từ người chơi (client) tương ứng
                     }
                 }
-                catch //Xử lý việc người chơi mất kết nối ko gửi DISCONNECT
+                catch (Exception) //Xử lý việc người chơi mất kết nối ko gửi DISCONNECT
                 {
                     //Nếu chỉ có hoặc còn 2 người chơi trong game đang diễn ra mà có người mất kết nối thì đóng kết nối với người còn lại luôn
                     if (PLAYERLIST.Count == 2 && TrangThai == true)
