@@ -347,6 +347,7 @@ namespace UNOServer
                 return;
             }    
             TrangThai = true;
+            BOBAI.ResetCardName(); //Tạo mảng CardName mới
             SettingUpTurn(); //Tạo lượt và gán số bài 7 bài cho mỗi người chơi
             PLAYERLIST.Sort((x, y) => x.Luot.CompareTo(y.Luot)); //Sắp xếp lại các người chơi trong PLAYERLIST theo lượt tăng dần
             XaoBai(); //Xào bộ bài
@@ -495,14 +496,28 @@ namespace UNOServer
                     string SendData = "Penalty;" + PLAYERLIST[HienTai - 1].ID;
                     byte[] data = Encoding.UTF8.GetBytes(SendData);
                     PLAYERLIST[HienTai - 1].PlayerSocket.Send(data);
+                    //Gửi thông điệp cho tất cả người chơi ngoại trừ người chơi bị phạt Turn: Gửi thông điệp về việc đến lượt của người chơi nào
+                    foreach (var user in PLAYERLIST)
+                    {
+                        if(user.ID != PLAYERLIST[HienTai - 1].ID)
+                        {
+                            string SendData_ = "Turn;" + PLAYERLIST[HienTai - 1].ID;
+                            byte[] buffer_ = Encoding.UTF8.GetBytes(SendData_);
+                            user.PlayerSocket.Send(buffer_);
+                            Thread.Sleep(200);
+                        }                      
+                    }
                 }
-                //Gửi thông điệp cho tất cả người chơi Turn: Gửi thông điệp về việc đến lượt của người chơi nào
-                foreach (var user in PLAYERLIST)
+                else
                 {
-                    string SendData_ = "Turn;" + PLAYERLIST[HienTai - 1].ID;
-                    byte[] buffer_ = Encoding.UTF8.GetBytes(SendData_);
-                    user.PlayerSocket.Send(buffer_);
-                    Thread.Sleep(200);
+                    //Gửi thông điệp cho tất cả người chơi Turn: Gửi thông điệp về việc đến lượt của người chơi nào
+                    foreach (var user in PLAYERLIST)
+                    {
+                        string SendData_ = "Turn;" + PLAYERLIST[HienTai - 1].ID;
+                        byte[] buffer_ = Encoding.UTF8.GetBytes(SendData_);
+                        user.PlayerSocket.Send(buffer_);
+                        Thread.Sleep(200);
+                    }
                 }
             }
         }
@@ -531,7 +546,7 @@ namespace UNOServer
         private static void HandleSpecialDraw(string[] Signal, PLAYER User)
         {
             PLAYERLIST[HienTai - 1].SoLuongBai = int.Parse(Signal[2]); //Lấy thông tin về số bài còn lại của người chơi hiện tại
-            string cardstack = "Specialdraws;" + PLAYERLIST[HienTai - 1].ID + ";"; //Tạo chuỗi cardstack chứa thông điệp Specialdraws: Các lá bài mà người chơi nhận được
+            string cardstack = "Specialdraws;" + PLAYERLIST[HienTai - 1].ID; //Tạo chuỗi cardstack chứa thông điệp Specialdraws: Các lá bài mà người chơi nhận được
             //Phạt người chơi không hô UNO rút thêm 2 lá
             if (YELLUNOLIST.Contains(PLAYERLIST[HienTai - 1].ID))
             {
@@ -541,7 +556,7 @@ namespace UNOServer
             //Vòng lặp nối các lá bài vào cardstack để hoàn chỉnh SpecialDraw 
             for (int i = 0; i < RUT; i++)
             {
-                cardstack += BOBAI.CardName[0] + ";";
+                cardstack += ";" + BOBAI.CardName[0];
                 BOBAI.CardName = BOBAI.CardName.Where(val => val != BOBAI.CardName[0]).ToArray();
             }
             byte[] buff = Encoding.UTF8.GetBytes(cardstack);
@@ -598,14 +613,28 @@ namespace UNOServer
                 string SendData = "Penalty;" + PLAYERLIST[HienTai - 1].ID;
                 byte[] data = Encoding.UTF8.GetBytes(SendData);
                 PLAYERLIST[HienTai - 1].PlayerSocket.Send(data);
-            }                 
-            //Gửi thông điệp đến tất cả người chơi Turn: Gửi thông điệp về việc đến lượt của người chơi nào
-            foreach (var user in PLAYERLIST)
+                //Gửi thông điệp cho tất cả người chơi ngoại trừ người chơi bị phạt Turn: Gửi thông điệp về việc đến lượt của người chơi nào
+                foreach (var user in PLAYERLIST)
+                {
+                    if(user.ID != PLAYERLIST[HienTai - 1].ID)
+                    {
+                        string SendData_ = "Turn;" + PLAYERLIST[HienTai - 1].ID;
+                        byte[] buffer_ = Encoding.UTF8.GetBytes(SendData_);
+                        user.PlayerSocket.Send(buffer_);
+                        Thread.Sleep(200);
+                    }                      
+                }
+            }
+            else
             {
-                string SendData = "Turn;" + PLAYERLIST[HienTai - 1].ID; // Tạo thông điệp chứa ID của người chơi hiện tại
-                byte[] buffer = Encoding.UTF8.GetBytes(SendData);
-                user.PlayerSocket.Send(buffer); // Gửi dữ liệu đến từng client
-                Thread.Sleep(200); // Ngắt thời gian ngắn giữa các lần gửi
+                //Gửi thông điệp cho tất cả người chơi Turn: Gửi thông điệp về việc đến lượt của người chơi nào
+                foreach (var user in PLAYERLIST)
+                {
+                    string SendData_ = "Turn;" + PLAYERLIST[HienTai - 1].ID;
+                    byte[] buffer_ = Encoding.UTF8.GetBytes(SendData_);
+                    user.PlayerSocket.Send(buffer_);
+                    Thread.Sleep(200);
+                }
             }
         }
 
@@ -687,6 +716,7 @@ namespace UNOServer
                     DemFinish = 0;
                     DemRestart = 0;
                     WinnerName = "";
+                    MoBai.mobai.Clear();
                     SetupGame(Signal, User);  //Đủ người thì lại thiết lập bắt đầu trò chơi
                     Console.WriteLine("Đủ người chơi muốn restart, bắt đầu lại...");
                 }
