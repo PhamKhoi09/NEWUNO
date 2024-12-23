@@ -121,7 +121,7 @@ namespace UnoOnline
                         OnMessageReceived?.Invoke(string.Join(" ", message.Data));
                         GameManager.HandleSpecialDraw(message);
                         break;
-                    case MessageType.MESSAGE:
+                    case MessageType.ChatMessage:
                         GameManager.HandleChatMessage(message);
                         break;
                     case MessageType.Penalty:
@@ -239,13 +239,13 @@ namespace UnoOnline
 }
 public enum MessageType
 {
-    CONNECT,
-    DISCONNECT,
-    START,
+    Connect,
+    Disconnect,
+    Start,
     RutBai,
     YellUNO,
     Penalty,
-    MESSAGE,
+    ChatMessage,
     Chat,
     DanhBai,
     DrawPenalty,

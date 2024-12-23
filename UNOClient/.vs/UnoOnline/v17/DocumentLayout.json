@@ -1,45 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\",
+  "WorkspaceRootPath": "D:\\C\u002B\u002B\\c# code\\NEWUNO\\UNOClient\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|solutionrelative:gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|c:\\users\\ledan\\source\\repos\\newuno\\unoclient\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|solutionrelative:register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\getpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|solutionrelative:getpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\waitinglobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|solutionrelative:waitinglobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\clientsocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|D:\\C\u002B\u002B\\c# code\\NEWUNO\\UNOClient\\clientsocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|solutionrelative:clientsocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|d:\\c\u002B\u002B\\c# code\\newuno\\unoclient\\waitinglobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|solutionrelative:waitinglobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|d:\\c\u002B\u002B\\c# code\\newuno\\unoclient\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|d:\\c\u002B\u002B\\c# code\\newuno\\unoclient\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|solutionrelative:gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|D:\\C\u002B\u002B\\c# code\\NEWUNO\\UNOClient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{190E376C-6381-49A3-BD62-E9A3F238F28A}|UnoOnline.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,105 +30,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Register.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\Register.cs",
-              "RelativeDocumentMoniker": "Register.cs",
-              "ToolTip": "C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\Register.cs [Design]",
-              "RelativeToolTip": "Register.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T14:26:05.342Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GetPassword.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\GetPassword.cs",
-              "RelativeDocumentMoniker": "GetPassword.cs",
-              "ToolTip": "C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\GetPassword.cs [Design]",
-              "RelativeToolTip": "GetPassword.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T14:24:32.817Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\Login.cs [Design]",
-              "RelativeToolTip": "Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T14:24:30.646Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WaitingLobby.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\WaitingLobby.cs",
+              "DocumentIndex": 1,
+              "Title": "WaitingLobby.cs",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\c# code\\NEWUNO\\UNOClient\\WaitingLobby.cs",
               "RelativeDocumentMoniker": "WaitingLobby.cs",
-              "ToolTip": "C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\WaitingLobby.cs [Design]",
-              "RelativeToolTip": "WaitingLobby.cs [Design]",
+              "ToolTip": "D:\\C\u002B\u002B\\c# code\\NEWUNO\\UNOClient\\WaitingLobby.cs",
+              "RelativeToolTip": "WaitingLobby.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T14:22:10.48Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ClientSocket.cs",
-              "DocumentMoniker": "C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\ClientSocket.cs",
-              "RelativeDocumentMoniker": "ClientSocket.cs",
-              "ToolTip": "C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\ClientSocket.cs",
-              "RelativeToolTip": "ClientSocket.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T14:20:32.412Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Menu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\Menu.cs",
-              "RelativeDocumentMoniker": "Menu.cs",
-              "ToolTip": "C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\Menu.cs [Design]",
-              "RelativeToolTip": "Menu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T12:07:42.768Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\Login.cs",
-              "RelativeToolTip": "Login.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T12:16:32.678Z",
+              "WhenOpened": "2024-12-23T06:20:43.726Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\c# code\\NEWUNO\\UNOClient\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "D:\\C\u002B\u002B\\c# code\\NEWUNO\\UNOClient\\Menu.cs",
+              "RelativeToolTip": "Menu.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAUwDgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T06:07:55.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientSocket.cs",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\c# code\\NEWUNO\\UNOClient\\ClientSocket.cs",
+              "RelativeDocumentMoniker": "ClientSocket.cs",
+              "ToolTip": "D:\\C\u002B\u002B\\c# code\\NEWUNO\\UNOClient\\ClientSocket.cs",
+              "RelativeToolTip": "ClientSocket.cs",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAAAPQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T14:20:32.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\Form1.cs",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\c# code\\NEWUNO\\UNOClient\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\Form1.cs",
+              "ToolTip": "D:\\C\u002B\u002B\\c# code\\NEWUNO\\UNOClient\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
               "ViewState": "AgIAAM0DAAAAAAAAAAAQwNYDAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -157,23 +90,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T09:11:41.51Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\GameManager.cs",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\c# code\\NEWUNO\\UNOClient\\GameManager.cs",
               "RelativeDocumentMoniker": "GameManager.cs",
-              "ToolTip": "C:\\Users\\ledan\\source\\repos\\NEWUNO\\UNOClient\\GameManager.cs",
+              "ToolTip": "D:\\C\u002B\u002B\\c# code\\NEWUNO\\UNOClient\\GameManager.cs",
               "RelativeToolTip": "GameManager.cs",
               "ViewState": "AgIAAIUAAAAAAAAAAAAwwI4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -43,7 +43,7 @@ namespace UnoOnline
 
         private void btnJoinGame_Click(object sender, EventArgs e)
         {
-            var message = new Message(MessageType.START, new List<string> { Program.player.Name });
+            var message = new Message(MessageType.Start, new List<string> { Program.player.Name });
             ClientSocket.SendData(message);
         }
 
@@ -54,7 +54,7 @@ namespace UnoOnline
             try
             {
                 // Send disconnect message to the server
-                var message = new Message(MessageType.DISCONNECT, new List<string> { Program.player.Name });
+                var message = new Message(MessageType.Disconnect, new List<string> { Program.player.Name });
                 ClientSocket.SendData(message);
 
                 // Close the client socket

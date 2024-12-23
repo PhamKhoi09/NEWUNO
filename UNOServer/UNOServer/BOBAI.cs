@@ -9,7 +9,7 @@ namespace UNOServer
     /* Class chứa các lá bài của bộ bài */
     internal class BOBAI
     {
-        public static string currentCard = "";
+        public static string Current = "";
         public static string[] DefaultCardName =
         {
                 "Red_0", "Red_1", "Red_2", "Red_3", "Red_4", "Red_5", "Red_6", "Red_7", "Red_8", "Red_9", "Red_1_", "Red_2_", "Red_3_", "Red_4_", "Red_5_", "Red_6_", "Red_7_", "Red_8_", "Red_9_",

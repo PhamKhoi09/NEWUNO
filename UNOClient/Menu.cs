@@ -54,7 +54,7 @@ namespace UnoOnline
 
             ClientSocket.ConnectToServer(serverEP);
 
-            var message = new Message(MessageType.CONNECT, new List<string> { Program.player.Name });
+            var message = new Message(MessageType.Connect, new List<string> { Program.player.Name });
             ClientSocket.SendData(message);
         }
 
